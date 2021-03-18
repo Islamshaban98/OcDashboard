@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>OC Dashboard</title>
+  </head>
+  <body>
+    <section >
+      
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 left-col">
+            <div class="user-story-div f-z-18">
+              <p >User story</p>
+              <p >
+                As a user, I want to be able to navigate to notifications to
+                filter new customers, Owners first purchase order, purchase
+                order dispatched by system, RFQ sent to supplier, supplier
+                accept RFQ, supplier reject RFQ, system generate a bill to
+                client, client accept or reject bill, system generate invoice,
+                client mark invoice complete or returned
+              </p>
+            </div>
+            <div class="criteria-div  f-z-18">
+              <p>Acceptance Criteria</p>
+              <p>
+                The notifications icon in placed on the top bar Notification
+                show once the user clicks “Notifications icon” 
+                The notifications icon will be changed to selected 
+                The notifications filtered by day, week and month 
+                The notification filtered active icon colorchanged to accent color 
+                The notifications will show the date & time of notifications
+                The number of notifications will be showing on the total notifications and on each type on
+                notifications The notification area color will be focused if
+                user hover on it The notification can mark as ridden and change
+                its color from active color to inactive gray color The
+                notification redirect to action page The notifications be filter
+                based on user selection “types” The notifications can be all
+                marked as read The notifications load more notification by
+                clicking see more buttonthe notifications shows scroll bar to
+                view more notifications The notifications will show empty icon
+                if there no any notifications
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 right-col">
+              <div class="d-flex justify-content-between align-items-baseline">
+
+                  <div class="d-flex flex-column pl-2">
+                      <p class="f-z-16" style="color: #212121;" >
+                          Notifications
+                        </p>
+                        <p class="f-z-12"  style="color: #B5B5C3;">
+                          You have 200+ notifications
+                        </p>
+                  </div>
+                <ul class="nav nav-pills mb-3 mt-5 " id="pills-tab" role="tablist">
+                    <!-- <div class="d-flex nav-div"> -->
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Month</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Week</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Day</button>
+                        </li>
+                    <!-- </div> -->
+                  </ul>
+              </div>
+              <div class="tab-content" id="pills-tabContent" >
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <nav >
+                        <div class="nav nav-tabs f-z-12 d-flex justify-content-around border-div" id="nav-tab" role="tablist">
+                            <button class="nav-link active"id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">All</button>
+                            <button class="nav-link"id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">New Orders</button>
+                            <button class="nav-link"id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">RFQ</button>
+                            <button class="nav-link "id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Bill</button>
+                            <button class="nav-link"id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Invoices</button>
+                            <button class="nav-link"id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Complete</button>
+                            <button class="nav-link"id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Returened</button>
+                          </div>
+                    </nav>
+                    <div class="tab-content overflow-scroll" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="d-flex justify-content-between mt-4 pl-2">
+                                <p class="f-z-12 bold">
+                                    13 Jan 2021
+                                </p>
+                                <div class="d-flex align-items-baseline">
+                                    <div class="circle-div align-self-baseline"></div>
+                                    <p class="grey-p f-z-12" style="  margin-right: 20px;">Mark all as read</p>
+                                </div>
+                            </div>
+                           <div class="d-flex justify-content-between pt-2 pl-2">
+                            <div>
+                                <p class="f-z-12">
+                                    Another purpose would be to persuade people
+                                </p>
+                                <p class="f-z-12 grey-p">
+                                    45 minutes ago
+                                </p>
+                            </div> 
+                            <div class="circle-div"></div>
+                           </div>
+                           <div class="d-flex justify-content-between pt-2 pl-2">
+                            <div>
+                                <p class="f-z-12">
+                                    The goal of your text could also be to entertain or amuse
+                                </p>
+                                <p class="f-z-12 grey-p" >
+                                    5 hours ago
+                                </p>
+                            </div> 
+                            <div class="circle-div"></div>
+                           </div>
+                           <p class="f-z-12 bold pl-2">
+                            12 Jan 2021
+                        </p>
+                           <div class="d-flex justify-content-between liner pt-2 pl-2">
+                            <div>
+                                <p class="f-z-12">
+                                    Another purpose would be to persuade people
+                                </p>
+                                <p class="f-z-12 grey-p">
+                                   2:00 PM
+                                </p>
+                            </div> 
+                            <div class="circle-div blue"></div>
+                           </div>
+                           <div class="d-flex justify-content-between pt-2 pl-2">
+                            <div>
+                                <p class="f-z-12">
+                                    These three text purposes are not at all mutually exclusive
+                                </p>
+                                <p class="f-z-12 grey-p">
+                                    1:00 PM
+                                </p>
+                            </div> 
+                            <div class="circle-div"></div>
+                           </div>
+                           <div class="d-flex justify-content-between pt-2 pl-2">
+                            <div class=" w-80">
+                                <p class="f-z-12">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum scelerisque in aenean diam enim at egestas urna et. Diam elit ut integer augue aenean vulputate. 
+                                </p>
+                                <p class="f-z-12 grey-p">
+                                    10:00 AM
+                                </p>
+                            </div> 
+                            <div class="circle-div"></div>
+                           </div>
+                           <p class="f-z-12 bold pl-2">
+                            13 Jan 2021
+                        </p>
+                           <div class="d-flex justify-content-between pt-2 pl-2">
+                            <div>
+                                <p class="f-z-12">
+                                    Another purpose would be to persuade people
+                                </p>
+                                <p class="f-z-12 grey-p pl-2">
+                                    45 minutes ago
+                                </p>
+                            </div> 
+                            <div class="circle-div blue"></div>
+                           </div>
+                           <div class="d-flex justify-content-between pt-2 pl-2">
+                            <div>
+                                <p class="f-z-12">
+                                    Another purpose would be to persuade people
+                                </p>
+                                <p class="f-z-12 grey-p">
+                                    45 minutes ago
+                                </p>
+                            </div> 
+                            <div class="circle-div"></div>
+                           </div>
+                           <div class="d-flex justify-content-between pt-2 pl-2">
+                            <div>
+                                <p class="f-z-12">
+                                    Another purpose would be to persuade people
+                                </p>
+                                <p class="f-z-12 grey-p">
+                                    45 minutes ago
+                                </p>
+                            </div> 
+                            <div class="circle-div"></div>
+                           </div>
+                        </div>
+                   
+                      </div>
+                      <div style="text-align: center;">
+                          <button type="button" class="btn btn-outline-success f-z-12 ">See All</button>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...week</div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...month</div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

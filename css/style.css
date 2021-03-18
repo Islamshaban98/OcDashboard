@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+.left-col{
+    background-color: #E5E5E5;
+    padding-left: 8rem;
+    padding-top:7rem
+   
+}
+.right-col{
+    padding-left: 0;
+}
+.user-story-div p:first-child{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.criteria-div p:first-child{
+    font-weight: bold;
+    margin-bottom: 0;
+  
+}
+.user-story-div p:last-child{
+    color: #707070;
+    width: 80%;
+}
+.criteria-div p:last-child{
+    color: #707070;
+    width: 80%;
+}
+.f-z-18{
+    font-size: 18px;
+}
+.f-z-16{
+    font-size: 16px;
+}
+.f-z-12{
+    font-size: 12px;
+}
+.f-z-10{
+    font-size: 10px;
+}
+
+.button-container::-webkit-scrollbar {
+    display: none;
+  }
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: #fff !important;
+    border: hidden;
+    color:#79C586 !important;
+    box-shadow: 0px 3px 1px -1px  #79C586;
+   
+}
+.nav-tabs .nav-link{
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-link.active, .nav-pills .show .nav-link{
+    background-color: #d0eed5 !important;
+    color:#79C586 !important
+}
+.nav-link{
+    color:#B5B5C3 ;
+    font-weight: bold;
+    font-size: 12px;
+}
+.green-nav{
+    background-color: transparent !important; ;
+}
+.border-div{
+    border-top: 1px solid #E4E6EE;
+}
+.circle-div{
+    background-color: #C0C0C0;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin-right: 20px;
+    align-self: center;
+}
+.blue{
+    background-color: #0090FF !important;
+    ;
+}
+.grey-p{
+    color: #B5B5C3;
+}
+.date-p{
+    color: #464E5F;
+}
+.bold{
+    font-weight: bold;
+}
+.w-80{
+    width: 80%;
+}
+.overflow-scroll{
+    overflow: auto;
+    height: 400px;
+    overflow-x: hidden;
+}
+.btn-outline-success{
+    color: #79C586 !important;
+    padding: 15px 55px 15px 55px !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.btn-outline-success:focus{
+    box-shadow: none !important;
+}
+.overflow-scroll::-webkit-scrollbar {
+    width: 10px;
+  }
+  .overflow-scroll::-webkit-scrollbar-thumb {
+    background: #C5E6FF; 
+    border-radius: 10px;
+  }
+  .overflow-scroll::-webkit-scrollbar-thumb:hover {
+    background: #b6ddfc; 
+  }
+  .liner{
+    background: linear-gradient(89.93deg, #F8F8F8 2.18%, rgba(248, 248, 248, 0.53) 99.95%);
+  }
+  .pl-2{
+      padding-left: 10px;
+  }
+ 
+ 
+
+
+
+
